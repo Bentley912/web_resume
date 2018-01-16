@@ -1,0 +1,24 @@
+{
+  "name": "web_resume",
+  "version": "1.0.0",
+  "description": "Src code for web resume",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "web",
+    "resume"
+  ],
+  "author": "Pbentley",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "sequelize": "^4.31.2"
+  }
+}

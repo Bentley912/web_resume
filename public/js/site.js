@@ -1107,4 +1107,8 @@
         hideSitePreloader();
     });
 
+    $.get( "https://api.linkedin.com/v1/people/~?oauth2_access_token=AQVjKmzdJ62ZtlZkJLaD23SQIwsyQajZiu9-eNm-FYYtYrfm3ePs4O-WQDLTSL3q-DZjZ3sn6dup6erN4Slo5cbqz5L6KvvbKM5XsLHibupzR9AbN4Wcap2uB_c4fZJtGOZqj-mcgk_TsU9uRV3yIv9bCu6C6R828KDrozwILr-yj7QM83xfUOdwWuBeWrQOkL1hIZxYDhu92xVVEFT3LvjRONRphjl9uBtT2PX7WqelAhIuBHBtLN1L34Y4tB2I6upA5vX7ofoVGRId4zrLbN7t493du0v4oT7uDd618VKGF6Zq9COAG1HKf2RQsrfdiwb2XaJc1vJ4mRwdoi716PQdDr9W5A&format=json HTTP/1.1", function( data ) {
+        console.log(data);
+      });
+
 })(jQuery);
